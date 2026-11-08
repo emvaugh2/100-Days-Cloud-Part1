@@ -1,7 +1,28 @@
 # 100 Days of Clouds with KodeKloud - Days 01 - 10
 
 
-## Day 3: Create a Subnet
+
+## Day 4: Enable Versioning for S3 Bucket
+
+
+## Day 3: Create Subnet
+
+
+
+```
+aws ec2 describe-vpcs | grep VpcId
+```
+
+```
+aws ec2 create-subnet \
+--cidr-block "172.31.96.0/24" \
+--vpc-id "vpc-08c8ae5debbfef1b1" \
+--tag-specifications "ResourceType=subnet,Tags=[{Key=Name,Value=xfusion-subnet}]"
+```
+
+```
+aws ec2 describe-subnets
+```
 
 ## Day 2: Create a Security Group
 
