@@ -1,6 +1,8 @@
 # 100 Days of Clouds with KodeKloud - Days 01 - 10
 
 
+## Day 3: Create a Subnet
+
 ## Day 2: Create a Security Group
 
 Lets make this interesting. I'm going to do everything from the AWS CLI. The point of this lab was to create a security group with a specific name, description, and two inbound rules (one for HTTP and SSH). I found all of this syntax on the AWS website. I realized most of this was supposed to be strings so I added the quotation marks. AI informed me I needed the VPC ID so we queried for that. The one thing I was missing that AWS didnt include was that I needed to put `ec2` after `aws` since security groups are an EC2 resource. Once I ran these 3 commands, I recieved output verifying that the resources were created. 
