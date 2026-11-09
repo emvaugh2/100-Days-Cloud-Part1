@@ -4,6 +4,19 @@
 
 ## Day 4: Enable Versioning for S3 Bucket
 
+```
+aws s3 ls
+aws s3api list-buckets
+```
+
+```
+aws s3api put-bucket-versioning --bucket devops-s3-481725035 \
+> --versioning-configuration Status=Enabled
+```
+
+```
+aws s3api get-bucket-versioning --bucket devops-s3-481725035
+```
 
 ## Day 3: Create Subnet
 
