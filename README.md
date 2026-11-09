@@ -10,8 +10,9 @@ aws s3api list-buckets
 ```
 
 ```
-aws s3api put-bucket-versioning --bucket devops-s3-481725035 \
-> --versioning-configuration Status=Enabled
+aws s3api put-bucket-versioning \
+--bucket devops-s3-481725035 \
+--versioning-configuration Status=Enabled
 ```
 
 ```
