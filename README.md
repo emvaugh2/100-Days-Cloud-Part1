@@ -2,6 +2,21 @@
 
 
 
+## Day 5: Create GP3 Volume
+
+```
+aws ec2 describe-volumes
+```
+
+```
+aws ec2 create-volume \
+--volume-type gp3 \
+--size 2 \
+--availability-zone us-east-1a \
+--tag-specifications "ResourceType=volume,Tags=[{Key=Name,Value=devops-volume}]"
+```
+
+
 ## Day 4: Enable Versioning for S3 Bucket
 
 ```
