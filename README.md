@@ -1,6 +1,8 @@
 # 100 Days of Clouds with KodeKloud - Days 01 - 10
 
+## Day 5: Launch an EC2 Instance
 
+Okay this involved about 3 different sets of commands and I don't have the time for that this morning. I went into the AWS console and launched the instance. Very easy. I've done this 100 times before. I'll revisit this and use the AWS CLI next time although what's the point. I've done this in Terraform plenty of times as well. Maybe just leave this lab here. 
 
 ## Day 5: Create GP3 Volume
 
